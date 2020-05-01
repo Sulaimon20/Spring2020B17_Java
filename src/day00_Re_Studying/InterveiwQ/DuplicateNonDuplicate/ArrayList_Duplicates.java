@@ -1,4 +1,4 @@
-package day00_Re_Studying.InterveiwQ.NonDuplicate;
+package day00_Re_Studying.InterveiwQ.DuplicateNonDuplicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
