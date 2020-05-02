@@ -36,6 +36,5 @@ public class CollectionMethod {
         System.out.println(secondMin);//2
 
 
-
     }
 }

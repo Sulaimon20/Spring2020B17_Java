@@ -14,9 +14,9 @@ public class uniqueElementsArrayList {
         list.add(4);
         list.add(5);
 
-        for (Integer j=0; j<list.size(); j++){
+        for (int j=0; j<list.size(); j++){
             int count=0;
-            for (Integer i=0; i<list.size(); i++){
+            for (int i=0; i<list.size(); i++){
                 if (list.get(i)==list.get(j)){
                     count++;
                 }

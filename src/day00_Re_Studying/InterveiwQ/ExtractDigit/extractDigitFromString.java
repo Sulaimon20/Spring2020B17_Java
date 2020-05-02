@@ -11,7 +11,7 @@ public class extractDigitFromString {
             char ch= str.charAt(i);
             if (ch>=48 && ch<=57 ){
                 result+=ch;
-                sum+=Integer.parseInt(result);
+                sum+=Integer.parseInt(result);//17
             }
         }
         System.out.println(sum);
