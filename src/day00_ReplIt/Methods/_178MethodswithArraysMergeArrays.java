@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class _178MethodswithArraysMergeArrays {
     public static int[] mergR(int[] a,int[] b) {
+
     int [] ab=new int [a.length+b.length];
+
         for (int i=0; i<a.length; i++){
             ab[i]=a[i];}
         for (int i=0; i<b.length; i++){

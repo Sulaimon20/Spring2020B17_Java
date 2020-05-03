@@ -1,4 +1,4 @@
-package day00_Re_Studying.InterveiwQ.Casting;
+package day00_Re_Studying.Casting;
 
 public class CastingNumb {
     public static void main(String[] args) {

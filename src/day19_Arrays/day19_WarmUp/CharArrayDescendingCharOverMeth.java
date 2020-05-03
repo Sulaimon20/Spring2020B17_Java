@@ -7,10 +7,11 @@ public class CharArrayDescendingCharOverMeth {
         char [] ch={'F','B','C','H','D','A','G','J'};
         System.out.println("Original order: "+Arrays.toString(ch));
         char [] ch2=descendingChar(ch);
+      //  [F, B, C, H, D, A, G, J]
         System.out.println("Ascending order "+Arrays.toString(ch2));
-
+//
         String str=extractChar(ch);
-        System.out.println(str);
+        System.out.println(str);//[A, B, C, D, F, G, H, J]
 
 
     }
@@ -20,7 +21,7 @@ public class CharArrayDescendingCharOverMeth {
     }
     public static String extractChar(char[]ch){
         String result ="";
-        for (int i=0; i<ch[ch.length]; i++){
+        for (int i=0; i<ch[ch.length-1]; i++){
             result=ch[i]+"";
         }
         return result;

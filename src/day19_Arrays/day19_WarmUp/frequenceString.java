@@ -6,12 +6,12 @@ public class frequenceString {
         write a program that can return the unique characters from a string
 		Ex:  "AABCCAAABBBBCCCDDDEEEWWWWAASSSSS" ==> "B"
          */
-        String str="AABCC"; //A2B1C2
+        String str="AABbbbbCC"; //A2B1C2
         String result="";//A2B1C2
         String nonDup="";//ABC
     //    int count=0;// count the total number of each  character from str
 
-        for (int i=0; i<=str.length()-1;i++){// if the character at index i is not contained in
+        for (int i=0; i<str.length();i++){// if the character at index i is not contained in
                                                 // nonDup, then it will
             if (!nonDup.contains(""+str.charAt(i))){
                 nonDup+=str.charAt(i);

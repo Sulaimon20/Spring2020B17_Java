@@ -1,6 +1,6 @@
 package day00_Re_Studying.Arrays;
 
-public class ArrayCharAt {
+public class reverseStringCharAt {
     public static void main(String[] args) {
 
         String name="Iman";

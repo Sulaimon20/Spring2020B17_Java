@@ -1,4 +1,4 @@
-package day00_ReplIt.Arrays;
+package day00_Re_Studying.InterveiwQ.Factorial;
 
 import java.util.Scanner;
 

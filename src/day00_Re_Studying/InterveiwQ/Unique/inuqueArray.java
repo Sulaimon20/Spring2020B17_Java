@@ -26,7 +26,7 @@ public class inuqueArray {
         list.add(2);
         for (int i=0; i<list.size(); i++) {
             int count1 = 0; //
-            for (Integer each : list) {//int is also works
+            for (int each : list) {//int is also works
                 if (each == list.get(0)) {// 0 1 2 how many time the list.get(0) is in each elements = frequency
                     count1++;
                 }
