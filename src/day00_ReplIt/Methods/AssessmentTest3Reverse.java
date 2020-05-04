@@ -2,7 +2,7 @@ package day00_ReplIt.Methods;
 
 import java.util.Arrays;
 
-public class NOT_DONE_AssessmentTest3 {
+public class AssessmentTest3Reverse {
     public static void main(String[] args) {
     String [] arr={"python", "typescript"};
         System.out.println(Arrays.toString((arr)));
@@ -13,10 +13,14 @@ public class NOT_DONE_AssessmentTest3 {
 
     public static String[] reverse(String[] arr) {
 
-        String temp=arr[0];
-        arr[0]=arr[1];
-        arr[1]=temp;
-         return  arr;
+        String[] newArr = new String[arr.length];
+        int j = arr.length-1;
+        for (int i=0; i<arr.length;i++){
+            newArr[i] = arr[j];
+            j--;
+        }
+
+        return newArr;
 
     }
 }

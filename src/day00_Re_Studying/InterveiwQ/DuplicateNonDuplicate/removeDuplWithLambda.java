@@ -11,7 +11,7 @@ public class removeDuplWithLambda {
         list.addAll(Arrays.asList(1,2,4,2,4,8));
         Predicate<Integer> nonDup= p -> Collections.frequency(list,p)!=1;//
         list.removeIf(nonDup);
-        System.out.println(list);
+        System.out.println(list);//[1, 8]
 
 
     }

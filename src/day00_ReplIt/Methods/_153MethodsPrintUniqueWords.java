@@ -6,23 +6,24 @@ public class _153MethodsPrintUniqueWords {
     public static void main(String[] args) {
 
     String[] words = {"java", "code", "python", "code"," rust", "code"," rust"};
-        printUniqueWords(words);
+            printUniqueWords(words);
     }
     public static void printUniqueWords(String[] words){
         //WRITE YOUR CODE HERE
-        String result="";
-        for (int j=0; j<words.length; j++) {
-            int count = 0;
-            for (int i = 0; i < words[i].length(); i++) {
-                if (words[i].equals(words[j])) {
-                    count++;//
-                }
-            }
-            if (count==1) {
-                System.out.println(words[j]);
 
+        for (int i=0; i<words.length; i++) {
+            int count = 0;
+                for (int k=0; k<words.length; k++){
+                    if (words[k].equals(words[i])) {
+                        count++;
+                    }
+                }
+                if (count==1){
+                    System.out.println(words[i]);
             }
         }
+
+
 
     }
 }

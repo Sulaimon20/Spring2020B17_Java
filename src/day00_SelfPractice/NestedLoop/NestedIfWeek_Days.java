@@ -1,4 +1,4 @@
-package day00_SelfPractice;
+package day00_SelfPractice.NestedLoop;
 
 public class NestedIfWeek_Days {
     public static void main(String[] args) {

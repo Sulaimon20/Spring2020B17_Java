@@ -19,17 +19,15 @@ public class uniqueCharAsString {
          //how many time this "A" occured in this array
 
         for (int j=0; j<arr.length; j++){
-
-            int count2=0;
+            int count=0;
             for (int i=0; i<arr.length; i++){//
                 if (arr[i].equals(arr[j])){//  this is for checking this character
-                    count2++;//
+                    count++;//
                 }
             }
-            if (count2==1){// this is the main code for finding unique character
+            if (count==1){// this is the main code for finding unique character
                 System.out.println(arr[j]); // if this character is =1 or the only one
             }
-
         }
 
 

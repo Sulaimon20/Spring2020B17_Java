@@ -1,4 +1,4 @@
-package day00_Re_Studying.InterveiwQ.DescendingOrder;
+package day00_Re_Studying.InterveiwQ.Sorting;
 
 import java.util.Arrays;
 
