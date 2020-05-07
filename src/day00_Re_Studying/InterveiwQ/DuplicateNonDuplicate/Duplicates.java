@@ -7,7 +7,7 @@ public class Duplicates {
     public static void main(String[] args) {
 
         ArrayList<String> str=new ArrayList<>(Arrays.asList("A", "B","A", "C", "D"));
-       //3 stage to create regular loo
+       //3 stage to create regular loop
         ArrayList<String> duplicates = new ArrayList<>();
         int dupCount=0;
         for (int i=0; i<str.size();i++) {
@@ -19,7 +19,6 @@ public class Duplicates {
                 }
             }
 //      we gonna put the
-
             if (count > 1&& !duplicates.contains(str.get(i))) {
                 duplicates.add(str.get(i));
 

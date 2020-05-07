@@ -2,12 +2,15 @@ package day00_Re_Studying.InterveiwQ.Unique;
 
 public class uniqueCharacter {
     public static void main(String[] args) {
-        String str="Java, as ad";
-        String result = ""; //"C", to store the unique characters
-        for(int j=0; j <= str.length()-1; j++ ){
+        String str="java versus java";
+          //        vvvv v++v>+ vvvv  
+        String result = ""; //eru => to store the unique characters
+
+        for(int j=0; j < str.length(); j++ ){
             char ch2 = str.charAt(j);
             int count = 0 ;  // to count the occurence of the character
-            for(int i = 0; i <= str.length()-1; i++){
+
+            for(int i = 0; i <str.length(); i++){
                 char ch = str.charAt(i);
                 if(ch == ch2){  // check how many time the character is  occured in the string
                     count++;

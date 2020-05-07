@@ -7,6 +7,9 @@ public class CountFrequencyOfCharInStr_4_Methods {
         int num=method1(str,chr);
         System.out.println(num);
 
+
+
+
             }
     public static int method1(String str, String chr) {
         int charCount = str.length() - str.replaceAll(chr, "").length();

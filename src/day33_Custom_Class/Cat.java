@@ -12,7 +12,7 @@ public class Cat {
     public void eat(String catFood){
         System.out.println(name+ " is eating "+catFood);
     }
-    public void drinking (String drink){
+    public void drink(String drink){
         System.out.println(name+ " is drinking "+drink);
     }
     public void setCatInfo(String catBreed, String catColor, int catAge, String catName){
@@ -21,9 +21,8 @@ public class Cat {
         age=catAge;
         name=catName;
             }
-
     public String toString(){
-        return  name+" | "+age+" | "+color+" | "+breed;
+        return  name+" - "+age+" - "+color+" - "+breed;
 
     }
 

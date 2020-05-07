@@ -45,5 +45,21 @@ public class ArrayList_Duplicates {
 
 
 
+
+        ArrayList<Integer> numbers=new ArrayList<>(Arrays.asList(1,1,2,2,3,3));
+        ArrayList<Integer> nonDup=new ArrayList<>();//empty, [] we gonna store here the numbers
+        for (int i=0; i<numbers.size();i++){
+            if (!nonDup.contains(numbers.get(i))){
+                nonDup.add(numbers.get(i));
+            }
+        }
+        System.out.println(nonDup);
+
+
+
+
+
+
+
     }
 }
