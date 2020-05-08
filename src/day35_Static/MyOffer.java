@@ -1,4 +1,4 @@
-package day36_Static;
+package day35_Static;
 
 import java.util.ArrayList;
 import java.util.Arrays;

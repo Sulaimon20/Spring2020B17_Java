@@ -1,4 +1,4 @@
-package day36_Static;
+package day35_Static;
 
 public class Offer {
     /*
