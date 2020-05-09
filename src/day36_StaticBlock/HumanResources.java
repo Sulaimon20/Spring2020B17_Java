@@ -4,7 +4,6 @@ import OfficeHours._05_06_CustomMethods.Team.Developer;
 
 public class HumanResources {
 
-
         static Developer dev1=new Developer();
 
         static Developer dev2=new Developer();

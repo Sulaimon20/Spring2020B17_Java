@@ -1,11 +1,22 @@
 package day32_Predicate;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
 public class ArrayListFindSecondMinMax {
     public static void main(String[] args) {
+
+        ArrayList<Double> list = new ArrayList<>();
+        list.add(1.2);
+        list.add(1.4);
+        list.add(1.6);
+        list.add(1.7);
+        list.add(1.29);
+        list.add(-1.21);
+        System.out.println(Arrays.asList(list));
+        System.out.println(Collections.min(list));
 
         ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1,1,2,3,4,4));
         // second max: 3

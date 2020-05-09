@@ -23,6 +23,8 @@ public class combineTwoStringArray {
         for (int i =0; i < ara1.length; i++){
             list1.add(ara1[i]);
         }
+        System.out.println(list1);
+
         for (int k =0; k < ara2.length; k++){
             list1.add(ara2[k]);
         }

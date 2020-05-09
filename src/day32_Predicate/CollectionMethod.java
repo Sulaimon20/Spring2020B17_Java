@@ -6,7 +6,7 @@ import java.util.Collections;
 public class CollectionMethod {
     public static void main(String[] args) {
         ArrayList<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
-        int max=Collections .max(list);
+        int max=Collections.max(list);
         System.out.println(max);
 
         int min=Collections.min(list);
@@ -33,6 +33,21 @@ public class CollectionMethod {
         Integer secondMin= Collections.min(numbers2);
         System.out.println(secondMin);//2
 
+
+    }
+    static class arr{
+
+        public static void main(String[] args) {
+            String [] arr={"A","B","C","D"};
+            ArrayList<String> list=new ArrayList<>();
+            for (String each: arr) {
+                list.add(each);
+            }
+            System.out.println(list);
+        String [] new1=new String [list.size()];
+
+
+        }
 
     }
 }

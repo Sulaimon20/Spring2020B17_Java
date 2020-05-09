@@ -1,78 +1,68 @@
 package day36_StaticBlock;
-// we have to create the instance variables, developer,
-//testers and scrumTeam;
-import java.time.LocalDate;
+
+
 import java.util.ArrayList;
 
+class Tester {
 
-class Tester{
-    int employeeID;
     String name;
+    long testEmployeeID;
     String jobTitle;
     double salary;
-    //LocalDate birthDay;
-   // LocalDate beginsWork;
 
 
-    public void setInfo(int employeeID, String name, String jobTitle, double salary){
-        this.employeeID=employeeID;
-        this.name=name;
-        this.jobTitle=jobTitle;
-        this.salary= salary;
-       // this.birthDay=birthDay;
-        //this.beginsWork=beginsWork;
+    public void setTesterInfo(String name, long testEmployeeID, String jobTitle, double salary) {
+        this.name = name;
+        this.testEmployeeID = testEmployeeID;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
     }
 
+    ArrayList<Tester> testersTeam=new ArrayList<>();
 
-    public static void main(String[] args) {
-        Tester tester1=new Tester();
-        tester1.setInfo(123456, "John Smith", "SDET", 200000);
-        Tester tester2=new Tester();
-        tester2.setInfo(123457, "Sam Duglass", "senior SDET", 200000);
-
-
-        ArrayList<Tester> testersTeam=new ArrayList<>();
-
+    public void hireTester(Tester tester){
+        testersTeam.add(tester);
     }
 
-
-
-
-
-
+    public void fireTester(long testEmployeeID){
+        testersTeam.removeIf(p->p.testEmployeeID==testEmployeeID);
+    }
 
 }
 
-class Developer{
+class Developer {
 
-    int employeeID;
     String name;
+    long devEmployeeID;
     String jobTitle;
     double salary;
-    LocalDate birthDay;
-    LocalDate beginsWork;
 
 
-    public void setInfo(int employeeID, String name, String jobTitle, double salary, LocalDate birthDay, LocalDate beginsWork){
-        this.employeeID=employeeID;
-        this.name=name;
-        this.jobTitle=jobTitle;
-        this.salary= salary;
-        this.birthDay=birthDay;
-        this.beginsWork=beginsWork;
+    public void setDevInfo(String name, long devEmployeeID, String jobTitle, double salary) {
+        this.name = name;
+        this.devEmployeeID = devEmployeeID;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
+
     }
+
+    ArrayList<Developer> devTeam=new ArrayList<>();
+
+    public void hireDeveloper(Developer developer){
+        devTeam.add(developer);
+
+    }
+
+    public void fireDeveloper(long devEmployeeID){
+        devTeam.removeIf(p->p.devEmployeeID==devEmployeeID);
+    }
+
 }
 
-class scrumTeam{
-    }
-
-public class MultiClasses {
-
-    public static void main(String[] args) {
+class scrumTeam {
 
 
-
-
+    public class MultiClasses {
 
     }
 }
