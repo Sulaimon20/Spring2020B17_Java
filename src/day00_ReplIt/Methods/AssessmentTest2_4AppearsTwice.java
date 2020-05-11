@@ -1,17 +1,20 @@
 package day00_ReplIt.Methods;
 
-public class NOT_DONE_AssessmentTest2_4AppearsTwice {
+public class AssessmentTest2_4AppearsTwice {
     public static void main(String[] args) {
-        System.out.println();
+        String target = "java";
+        String sentence = "java is fun!, java";
+        System.out.println(appearsTwice(target,sentence));
     }
-
-
     public static boolean appearsTwice(String target, String sentence) {
-     if (sentence.contains(target)==sentence.contains(target+target)) {
-     }
-        return false;
-    }
-}
+
+        int count = 0;
+        while(sentence.contains(target)) {
+            sentence = sentence.replaceFirst(target,"");
+            count++;
+        }
+        return (count==2) ? true : false ;
+    }}
 /*
 Main.appearsTwice("java", "java is fun!") - returns false, because java appears
 only once. Main.appearsTwice("laptop", "I would like to buy a new laptop,
