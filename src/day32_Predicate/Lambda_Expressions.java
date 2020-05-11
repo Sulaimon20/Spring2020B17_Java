@@ -5,19 +5,23 @@ import java.util.Arrays;
 import java.util.function.Predicate;
 
 public class Lambda_Expressions {
-    public static void main(String[] args) {
+	
+	public static void main(String[] args) {
 
         Predicate<Integer> oddNumber= x -> x%2 != 0;
+
         ArrayList<Integer>list = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
         list.removeIf(oddNumber);
         System.out.println(list);
+
         System.out.println("================================");
 
         ArrayList<Integer>list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
         Predicate<Integer> lessThan5= x -> x>5;
         list2.removeIf(lessThan5);
         System.out.println(list2);
-        System.out.println("=====================================");
+        
+	System.out.println("=====================================");
 
         ArrayList<String>list3 = new ArrayList<>(Arrays.asList("Abie","Bie","Muhtar", "momai", "Olu","Wow","Tom"));
 

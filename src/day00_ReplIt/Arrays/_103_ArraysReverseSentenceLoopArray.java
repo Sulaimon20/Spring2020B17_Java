@@ -8,16 +8,16 @@ public class _103_ArraysReverseSentenceLoopArray {
         Scanner input = new Scanner(System.in);
         String sentence = input.nextLine();
         String reversed = "";
-        //TODO: start your code here
+
         String[] words = sentence.split(" ");//[Java, is, fun]
         Arrays.toString(words);//[Java, is, fun]
         for(int i = words.length-1;  i >= 0; i-- ){//
             String each =  words[i];
             reversed += " " + each;
-            reversed=reversed.trim();
+           reversed=reversed.trim();//this is remove the extra space before the word
         }
 
-        //End your code here. do not modify below statement
+
         System.out.println(reversed);
 
 
