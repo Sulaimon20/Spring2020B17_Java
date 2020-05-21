@@ -9,6 +9,7 @@ public class BankAccount {
         System.out.println("Available Balance: "
                 +balance);
     }
+
     public void withDraw(double amount){
 
         if (balance<=0){
@@ -22,6 +23,7 @@ public class BankAccount {
         }
 
     }
+
     public void deposit(double amount){
         System.out.println("Depositing $"+amount);
         balance+=amount;

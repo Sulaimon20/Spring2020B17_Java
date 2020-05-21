@@ -1,8 +1,8 @@
-package day41_Inheritance;
+package day41_Inheritance.WarmUp;
 
 public class BankOfAmerica {
     public static void main(String[] args) {
-        BankAccount a=new BankAccount("Jon", "Lui");
+        BankAccount1 a=new BankAccount1("Jon", "Lui");
 
     }
 }

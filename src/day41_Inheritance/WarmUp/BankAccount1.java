@@ -1,6 +1,6 @@
-package day41_Inheritance;
+package day41_Inheritance.WarmUp;
 
-public class BankAccount {
+public class BankAccount1 {
 
     static String BankName;
     String firstName;
@@ -33,7 +33,7 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    public BankAccount(String firstName, String lastName){
+    public BankAccount1(String firstName, String lastName){
         this.firstName=firstName;
         this.lastName=lastName;
     }

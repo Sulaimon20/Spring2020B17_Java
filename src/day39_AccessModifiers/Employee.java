@@ -1,4 +1,4 @@
-package day39_Encapsulation.WarmUp;
+package day39_AccessModifiers;
 
 public class Employee {
     String name;

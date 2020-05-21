@@ -6,8 +6,10 @@ public class AnagramString {
         public static void main(String[] args) {
         String word1="Listen";
         String word2="Silent";
+
         word1=word1.toLowerCase();
         word2=word2.toLowerCase();
+
         char [] w1=word1.toCharArray();
         char[] w2=word2.toCharArray();
         Arrays.sort(w1);

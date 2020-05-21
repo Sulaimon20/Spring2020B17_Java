@@ -3,7 +3,7 @@ package day38_Constructors;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ShoppingList {
+public class ShoppingListObj {
     public static void main(String[] args) {
 
     Item item1=new Item("Computer", 25,100);

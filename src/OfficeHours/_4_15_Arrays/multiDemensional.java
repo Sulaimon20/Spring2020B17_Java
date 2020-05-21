@@ -22,8 +22,7 @@ public class multiDemensional {
 
         for (int x=0; x<words.length;x++){
             for (int y=0; y<words[x].length;y++){
-
-                System.out.println(words[x][y]+" ");
+                System.out.println(words[x][y]+" ");//word1 word2 word3 word4 word5 word6 word7 word8 word9
             }
         }
 

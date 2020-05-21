@@ -29,7 +29,7 @@ public class BankOfAmerica {
 
         double totalBudget = 0;
         for( Tester each :  testers){
-            System.out.println(each);
+            //System.out.println(each);//hashcode
             totalBudget += each.salary;
         }
 

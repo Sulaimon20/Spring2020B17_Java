@@ -17,7 +17,7 @@ public class MethodswithArrayList_removeAll {
 
     public static void removeAll(ArrayList<String> wordList, String targetWord){
 
-        ArrayList<String> wordList1 = new ArrayList<String>(wordList);
+        ArrayList<String> wordList1 = new ArrayList<>(wordList);
         wordList.removeAll(Arrays.asList(targetWord));
         System.out.println(wordList);;
     }

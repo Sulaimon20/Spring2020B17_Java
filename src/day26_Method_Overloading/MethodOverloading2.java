@@ -14,7 +14,7 @@ public class MethodOverloading2 {
         Arrays.sort(arr1);
         Arrays.sort(arr2);
         Arrays.sort(arr3);// same method name, different parameter
-
+        System.out.println("============================");
     }
     public static int method(int a, int b){
         return a+b;

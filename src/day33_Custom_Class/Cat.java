@@ -21,6 +21,7 @@ public class Cat {
         age=catAge;
         name=catName;
             }
+
     public String toString(){
         return  name+" - "+age+" - "+color+" - "+breed;
 

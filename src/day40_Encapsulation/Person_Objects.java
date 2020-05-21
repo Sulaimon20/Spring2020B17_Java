@@ -1,5 +1,7 @@
 package day40_Encapsulation;
 
+import day37_Constructors.ConstructorIntro;
+
 public class Person_Objects {
 
     public static void main(String[] args) {
@@ -13,14 +15,8 @@ public class Person_Objects {
         //  System.out.println( Zarina.ID );
         Zarina.setID(567);
         System.out.println( "Zarina' ID: "+Zarina.getID());
-
-
-
-
     }
 
-
-
-
-
 }
+
+

@@ -3,11 +3,19 @@ package day02_Variables;
 import java.util.Scanner;
 
 public class LittersToGalons {
-    public static void main(String[] args) {
-        double x=5;
-        double y=0.264;
+    double x=5;
+    double y=0.264;
 
-        System.out.println("5 litters is equal to "+x*y+" gallons");
+    public void setInfo(double x,double y){
+        this.x=x;
+        this.y=y;
+    }
+    public double LittersToGallon(double x, double y){
+        return x*y;
+    }
+
+    public static void main(String[] args) {
+
 
                 // 1=0.264
     }

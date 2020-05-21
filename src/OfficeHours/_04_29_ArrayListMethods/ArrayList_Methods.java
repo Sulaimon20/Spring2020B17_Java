@@ -20,9 +20,13 @@ public class ArrayList_Methods {
 
             Integer a=0;
             for (int i=0; i<list.size(); i++){
-                    a+=list.get(i);
+                    a+=list.get(i);// only prints size and sum of array numbers
             }
-            System.out.println(a);
+            System.out.println(a);//3 51
+
+            for (int i=0; i<list.size(); i++){
+                System.out.println(list.get(i));//1 30 20
+            }
 
 
     }

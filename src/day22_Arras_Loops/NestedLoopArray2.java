@@ -17,6 +17,8 @@ public class NestedLoopArray2 {
         // int[][] numbers = {{9, 8, 7}, {6}, {5, 4, 3, 2, 1,0}};
         //           k =        0       1           2
         // 5 4 3 2 1 0 6 9 8 7
+
+
         for (int k=numbers.length-1; k>=0; k--){
             for (int i = 0; i <numbers[k].length; i++){
                 System.out.print(numbers[k][i]+" ");

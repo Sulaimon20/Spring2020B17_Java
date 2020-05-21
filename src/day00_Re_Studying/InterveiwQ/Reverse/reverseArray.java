@@ -6,6 +6,7 @@ public class reverseArray {
  //write a program that can reverse the array
     public static void main(String[] args) {
         int [] arr={1,2,3,4,5,6};
+
         for (int i=arr.length-1; i >= 0; i--){
             int eachNum=arr[i];
             System.out.println(eachNum); //5,4,3,2,1
@@ -20,5 +21,7 @@ public class reverseArray {
             j--;                            // we reduce the numbers (j by 1)
         }
         System.out.println(Arrays.toString(RevArr));//[5,4,3,2,1]
+
+
     }
 }

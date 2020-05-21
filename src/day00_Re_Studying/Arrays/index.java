@@ -7,7 +7,7 @@ public class index {
         int [] nums = {1,2,3,4,6};
 
         Arrays.toString(nums);
-
+        System.out.println(Arrays.toString(nums));
 
         }
 

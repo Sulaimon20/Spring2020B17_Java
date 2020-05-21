@@ -8,12 +8,12 @@ import java.util.Arrays;
 public class CustomCarpetObjects {
     public static void main(String[] args) {
         Carpet[] carpets = {new Carpet(),new Carpet(),new Carpet(),new Carpet(),new Carpet()};
-        carpets[0].customOrder(5,5,100,true);
-        carpets[1].customOrder(2.5,15,50,false);
-        carpets[2].customOrder(3,1.3,30,false);
-        carpets[3].customOrder(2.5,15,70,true);
-        carpets[4].customOrder(0.5,25,15,false);
-        System.out.println(carpets[4]);
+//        carpets[0].customOrder(5,5,100,true);
+  //      carpets[1].customOrder(2.5,15,50,false);
+    //    carpets[2].customOrder(3,1.3,30,false);
+      //  carpets[3].customOrder(2.5,15,70,true);
+        //carpets[4].customOrder(0.5,25,15,false);
+        //System.out.println(carpets[4]);
 
         ArrayList<Carpet> persianCarpets = new ArrayList<>();
         for (Carpet eachCarpet : carpets ){

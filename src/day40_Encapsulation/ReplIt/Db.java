@@ -1,9 +1,13 @@
 package day40_Encapsulation.ReplIt;
 
-public class getterSetter_Encapsulation {
+public class Db {
     private String data;
     private int yint;
 
+    public void insertData(String data,int yint ){
+        this.data=data;
+        this.yint=yint;
+    }
     public String getData() {
         return data;
     }
@@ -21,13 +25,17 @@ public class getterSetter_Encapsulation {
     }
 
     public static void main(String[] args) {
-        Db db = new Db();
+        Db db=new Db();
+        db.setData("zzz");
+        db.setYint(200);
+
+        System.out.println(db.getData());//zzz
+        System.out.println(db.getYint());//200 Db db = new Db();
         db.insertData("aaa",123);
 
 
         System.out.println(db.getData());//aaa
         System.out.println(db.getYint());//123
-
 
     }
 }

@@ -1,7 +1,7 @@
 package day35_Static;
 
 public class staticVariables2 {
-    int insVariable;//
+    int insVariable;
     static int staticVariable;
 
     public static void main(String[] args) {
@@ -17,7 +17,8 @@ public class staticVariables2 {
         System.out.println(obj1.staticVariable);//400
         System.out.println(obj2.staticVariable);//400
 
-        System.out.println(staticVariables2.staticVariable);//400 static can be call through the class name
+        System.out.println(staticVariables2.staticVariable);//400
+        // static can be call through the class name
         //System.out.println(staticVariables2.insVariable); compiler error
 
     }

@@ -21,6 +21,7 @@ public class StudentObjects {
 
         ArrayList<Student> canGraduate= new ArrayList<>(Arrays.asList(students));
 
+
         canGraduate.removeIf(p -> p.gpa<=3.0);
       //  System.out.println(canGraduate);
         for (int i=0; i<canGraduate.size();i++){

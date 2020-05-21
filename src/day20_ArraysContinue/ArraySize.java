@@ -16,7 +16,13 @@ public class ArraySize {
         System.out.println(nums[0]);//0
         System.out.println(nums[1]);//0
         System.out.println(nums[2]);//0
-
+        int[][] a = {
+                {1,1,2}, //sum = 4
+                {3,1,2}, //sum = 6
+                {3,5,3}, //sum = 11
+                {0,1,2}  //sum = 3
+        };
+        System.out.println(a.length);
 
     }
 }

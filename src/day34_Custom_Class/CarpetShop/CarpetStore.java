@@ -5,24 +5,26 @@ public class CarpetStore {
     int length;
     double unitPrice;
     boolean isPersian;
-public void customOrder(int carpWidth, int carpLength, double carpUnitPrice, boolean carpIsParsian){
+
+    public void customOrder(int carpWidth, int carpLength, double carpUnitPrice, boolean carpIsParsian){
     width=carpWidth;
     length=carpLength;
     unitPrice=carpUnitPrice;
     isPersian=carpIsParsian;
 }
+
 public double calcCost() {
     double totalPrice =(width+length)*unitPrice;
-    if (isPersian){
-        totalPrice+=200;
+            if (isPersian){
+            totalPrice+=200;
     }
+    return totalPrice;
+}//the calculation process
 
-return totalPrice;
-}
-public String toString(){
+    public String toString(){
     return "Width of the carpet: "+width+"\nlength of the carpet: "
             +length+"\nPrice: "+calcCost();
-}
+}//for printing
 
 
 }

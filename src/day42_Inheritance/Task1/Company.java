@@ -1,44 +1,43 @@
-package day42_Inheritance;
+package day42_Inheritance.Task1;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+/*
+create a class called company:
+                    create 3 objects of employee and set thier info
+                    create an array of employees and store all those employee objects
+                    use regular for loop to print out each employee' name and employeeID
+ */
 
 public class Company {
-    public static void main(String[] args) {
-        Employee employee1=new Employee();
 
+    public static Employee employee1 = new Employee();
+    public static Employee  employee2 = new Employee();
+    public static Employee  employee3 = new Employee();
 
-        employee1.name="Kale";
-        employee1.age=23;
-        employee1.gender='F';
-        employee1.employeeID=123456;
-        employee1.jobTitle="SDET";
-        employee1.Salary=150000;
+    static{
 
-        Employee employee2=new Employee();
+        employee1.setEmployeeInfo("Messi", 32, 'M', 140_000, 13654,"SDET");
 
-        employee2.name="Dorry";
-        employee2.age=29;
-        employee2.gender='F';
-        employee2.employeeID=123457;
-        employee2.jobTitle="Analyst";
-        employee2.Salary=2000000;
+        employee2.setEmployeeInfo("Aigerim", 18, 'F', 130_000, 65654,"QA");
 
-        Employee employee3=new Employee();
-
-        employee3.name="Trezzy";
-        employee3.age=21;
-        employee3.gender='F';
-        employee3.employeeID=123458;
-        employee3.jobTitle="Developer";
-        employee3.Salary=250000;
-
-
-        ArrayList<Employee>list=new ArrayList<>();
-        list.addAll(Arrays.asList(employee1,employee2,employee3));
-        for (int i=0; i<list.size();i++){
-            System.out.println(list.get(i).name+" "+list.get(i).employeeID);
-        }
+        employee3.setEmployeeInfo("Safar", 25, 'M', 128_000, 6599,"BA");
 
     }
+
+    public static void main(String[] args) {
+
+        Employee[] employees = {employee1, employee2, employee3};
+
+        for(int i =0; i < employees.length; i++){
+            // System.out.println(employees[i]);
+            System.out.println("Name: "+ employees[i].name +", ID: "+ employees[i].employeeID );
+        }
+
+
+    }
+
+
+
 }
+
+
+

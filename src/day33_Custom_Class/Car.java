@@ -1,6 +1,7 @@
 package day33_Custom_Class;
 
 public class Car {
+//instance variable
     String Brand;
     String model;
     int year;

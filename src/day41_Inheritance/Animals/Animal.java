@@ -1,4 +1,4 @@
-package day41_Inheritance;
+package day41_Inheritance.Animals;
 
 public class Animal {
     public String name;

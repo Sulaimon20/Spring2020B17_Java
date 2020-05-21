@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class searchForWord {
     public static void main(String[] args) {
-        ArrayList<String> arr = new ArrayList<String>();
+        ArrayList<String> arr = new ArrayList<>();
         arr.add("2");
         arr.add("customer LA");
         arr.add("google");

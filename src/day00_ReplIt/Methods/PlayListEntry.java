@@ -1,30 +1,30 @@
 package day00_ReplIt.Methods;
 
 public class PlayListEntry {
-    String title ;
-    String artist;
+    String title ="" ;
+    String artist ="";
     int playCount =0;
 
-
-
-    public void get(String title, String artist, int playCount ){
-
-        this.title=title ;
-        this.artist=artist;
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+    public void setPlayCount(int playCount){
         this.playCount =playCount;
-
-    }
-    public void set(String title, String artist, int playCount ){
-
-        this.title=title;
-        this.artist=artist;
-        this.playCount =playCount;
-
     }
 
-    public static void main(String[] args) {
-
+    public String getTitle(){
+        return title;
     }
+    public String getArtist(){
+        return artist;
+    }
+    public int getPlayCount(){
+        return playCount;
+    }
+
 
     /*
     Write the definition of a class PlayListEntry containing:
