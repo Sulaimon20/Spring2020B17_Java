@@ -11,6 +11,7 @@ public class ArrayList_set {
         list.add(1,"D");
         System.out.println(list);//[A, D, C, B]
 
+
         list.set(3,"F");
         System.out.println(list);//[A, D, C, F]
 

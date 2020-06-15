@@ -11,6 +11,9 @@ public class searchForWord {
         arr.add("abc");
 
         String str="LA";
+
+
+
         String result="";
         for (int i=0; i<arr.size();i++){
             if (arr.get(i).contains(str)){
@@ -18,6 +21,7 @@ public class searchForWord {
             }
         }
         System.out.println(result);
+
 
 
     }

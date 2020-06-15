@@ -6,7 +6,7 @@ public class InstanceBlock {
     static {
         System.out.println("Static block");
     }
-//  instance block  => executes as mush as we pointed out  (the compiler prints )
+//  instance block  => executes as much as we pointed out  (the compiler prints )
     {
         System.out.println("Instance block");
     }

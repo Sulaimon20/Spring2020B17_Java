@@ -10,8 +10,37 @@ public class _2 {
         System.out.println(s1.equals(s2));
         System.out.println(sb1.toString() == s1);
         System.out.println(sb1.toString().equals(s1));
+/*
+        for (int i=str.length()-1; i>=0; i--){
+            reverse+=str.toCharArray()[i];
+        }
+        System.out.println(reverse);
+        // palindrome or not
+    if (str.equals(reverse)){
+        System.out.println(true);
+    }else{
+        System.out.println(false);
+    }
+    //anagram or not
+        String str1="Listen";
+        String str2="Silent";
+
+        String w=str1.toLowerCase();
+        String w2=str2.toLowerCase();
+
+        char [] s=w.toCharArray();
+        char [] s2=w2.toCharArray();
+
+        Arrays.sort(s);
+        Arrays.sort(s2);
+       System.out.println(Arrays.toString(s));
+        System.out.println(Arrays.toString(s2));
+*/
+
+
 
     }
+
 
 }
 /*

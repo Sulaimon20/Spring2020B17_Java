@@ -1,11 +1,14 @@
 package day36_StaticBlock;
-import day34_Custom_Class.Testers.Tester;
+
 
 public class StaticBlock2 {
     static int a;
     static int b;
     int c;
-
+    String name;
+    Integer d;
+    boolean s;
+    char ch;
     static Tester tester1=new Tester();
 
     static {
@@ -21,9 +24,12 @@ public class StaticBlock2 {
 
 
     public static void main(String[] args) {
-       tester1.setTesterInfo("Jean", 123, "SDET", 120000);
-        System.out.println(tester1);
-
+        StaticBlock2 obj=new StaticBlock2();
+        System.out.println(obj.c);
+        System.out.println(obj.ch);
+        System.out.println(obj.s);
+        System.out.println(obj.d);
+        System.out.println(obj.name);
 
     }
 }

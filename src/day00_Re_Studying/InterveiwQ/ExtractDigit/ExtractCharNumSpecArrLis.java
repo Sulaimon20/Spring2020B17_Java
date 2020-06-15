@@ -16,7 +16,7 @@ public class ExtractCharNumSpecArrLis {
            if (Character.isAlphabetic(str.charAt(i))){
                chars.add(str.charAt(i));
            }
-           if (!Character.isAlphabetic(str.charAt(i))&&!Character.isDigit(str.charAt(i))) {
+           else {
                specials.add(str.charAt(i));
            }
        }

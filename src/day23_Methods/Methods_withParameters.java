@@ -3,10 +3,14 @@ package day23_Methods;
 import java.util.Scanner;
 
 public class Methods_withParameters {
+
     public static void main(String[] args) {
+
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter you age");
         int age =scan.nextInt();
+
+        //method
         eligibleToBuyAlcohol(age);
 
     }

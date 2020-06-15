@@ -1,11 +1,13 @@
 package day42_Inheritance;
 
 class Test{
-
+    //double a
+    //this is Super class
     public Test(int a ){
-        this(2.5);
+        this(2.5);//this.a=2.5;
         System.out.println("A");
     }
+    //this is Sub class
     public Test(double a ){
         System.out.println("C");
     }

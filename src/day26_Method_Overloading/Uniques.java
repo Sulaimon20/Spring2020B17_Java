@@ -14,10 +14,10 @@ public class Uniques {
         System.out.println(result2);
 
     }
+    //this is method overloading with unique
     public static String uniques(String str){
 
         String result="";
-
         for (int i=0; i<str.length(); i++) {
             int num = frequency(str, str.charAt(i));
             if (num == 1) {
@@ -28,6 +28,7 @@ public class Uniques {
 
 
     }
+    //this is method overloading with frequency
     public static int frequency (String str, char ch) {
         char[] arr = str.toCharArray();//[A,A,A]
         int count = 0;

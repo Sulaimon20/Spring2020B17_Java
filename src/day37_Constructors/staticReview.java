@@ -10,19 +10,7 @@ class Test1{
         //System.out.println(obj.name);
     }
 }
-
-
-
-
-
-
-
 public class staticReview {
-
-
-
-
-
     static int a;// only 1 copy
     int b;      // each object has its own cpoy of instance variable
 
@@ -30,7 +18,7 @@ public class staticReview {
         staticReview obj1 = new staticReview();
 
         obj1.a = 20;// a is static
-        obj1.b = 10;//// a is static
+        obj1.b = 10;// a is static
 
         System.out.println(obj1.a);//20
         System.out.println(obj1.b);//10

@@ -2,6 +2,8 @@ package day40_Encapsulation;
 
 public class Test {
 
+
+
     public Test(){// A. default constructor
         System.out.println("A");
     }

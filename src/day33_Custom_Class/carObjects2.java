@@ -16,6 +16,8 @@ public class carObjects2 {
         car4.setCarInfo("Honda", "SRW", 2015, "Blue");
         System.out.println("========================================");
 
+        
+
         Car [] cars={car1,car2, car3,car4};
         for (int i=0; i<cars.length; i++){
             cars[i].getCarInfo();

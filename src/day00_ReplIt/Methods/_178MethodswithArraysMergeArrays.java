@@ -9,6 +9,7 @@ public class _178MethodswithArraysMergeArrays {
 
         for (int i=0; i<a.length; i++){
             ab[i]=a[i];}
+
         for (int i=0; i<b.length; i++){
             ab[a.length+i]=b[i];
         }

@@ -1,5 +1,6 @@
 package day42_Inheritance;
 
+import static day23_Methods.test.reverse;
 public class TestData extends Data{
  /*
 visible         public static String publicData="public";
@@ -13,6 +14,11 @@ not visible     private String privateData="private";
         System.out.println(TestData.protectedData); //visible
         System.out.println(TestData.defaultData);   //visible
        // System.out.println(TestData.privateData); //not visible
+
+        String abc="name";
+        String x=reverse(abc);
+        System.out.println(x);
+
 
     }
 

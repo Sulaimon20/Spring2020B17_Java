@@ -15,7 +15,7 @@ public class NestedClass {
 
     public static void main(String[] args) {
 
-        //NestedClass.data
+        //NestedClass.data;
         System.out.println(data.a);
 
 
