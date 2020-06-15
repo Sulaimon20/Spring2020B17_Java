@@ -1,6 +1,4 @@
-package day50_;
-
-import java.util.ArrayList;
+package day50_Polymorphism;
 
 public interface onlineEducation {
     boolean onlinesStudent=true;
