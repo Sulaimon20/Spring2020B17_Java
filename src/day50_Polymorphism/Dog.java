@@ -15,8 +15,12 @@ public final class Dog extends Animal{//3 var, 3 methods
     public void sleep(){
         System.out.println(dogName+" is sleeping");
     }
-    public void     bark(){
+    public void bark(){
         System.out.println(dogName+" is barking");
+    }
+    //this is overloaded
+    public void methodA(int a){
+        System.out.println("Dog class A");
     }
 
 

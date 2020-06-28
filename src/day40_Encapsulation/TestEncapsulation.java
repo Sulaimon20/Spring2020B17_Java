@@ -5,11 +5,14 @@ public class TestEncapsulation {
 
         Encapsulation object=new Encapsulation();
 
-        object.setSSN(12345);
+        //object.setSSN(12345);
 
 
 
         System.out.println(object.getSSN());
+        System.out.println(object.getS());
+        System.out.println(object.isBl());
+
 
 
 
