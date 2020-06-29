@@ -1,11 +1,8 @@
-package day54_Maps;
-
+package day54_Maps_GarbageCollector;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-public class Map_SetEntry {
+public class Map_setEntry {
     public static void main(String[] args) {
-
         LinkedHashMap<String, String>  countries = new LinkedHashMap<>();
         countries.put("Tajikistan", "Dushanbe");
         countries.put("Kyrgyzstan", "Bishkek");
@@ -15,6 +12,7 @@ public class Map_SetEntry {
 
         String input = "usa";
         for(Map.Entry<String, String>   each : countries.entrySet()  ) {
+            System.out.println( "Capital city of" + each.getKey() + " is : " + each.getValue() );
             // System.out.println( "Capital city of" + each.getKey() + " is : " + each.getValue() );
             String countryName = each.getKey();
             String cityName = each.getValue();
@@ -27,5 +25,8 @@ public class Map_SetEntry {
 
 
 
+
+
     }
+
 }
