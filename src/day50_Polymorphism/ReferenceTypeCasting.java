@@ -2,6 +2,7 @@ package day50_Polymorphism;
 
 public class ReferenceTypeCasting {
     public static void main(String[] args) {
+       /*
         int a=100;
         double b=a; //implicit casting
         byte c=(byte)a; //manually, explicit
@@ -28,7 +29,7 @@ public class ReferenceTypeCasting {
         ((Dog) animal5).bark();
 
 
-
+*/
 
     }
 }

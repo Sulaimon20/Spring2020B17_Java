@@ -2,6 +2,7 @@ package day00_Re_Studying.Strings;
 
 public class StringConcatination {
     public static void main(String[] args) {
+      /*
         String employeeName="Muhtor";
         String companyName="CyberTek";
         System.out.println("Employee name is "+employeeName );
@@ -10,5 +11,7 @@ public class StringConcatination {
         System.out.println();
         System.out.println("Employee name is "+ employeeName+ "\n Company name is "+companyName+ "\n" +employeeName+
                 " work at "+companyName   );
+
+       */
     }
 }

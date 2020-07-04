@@ -6,7 +6,7 @@ public class Palindrom {
         System.out.println(isPalindrome("anna"));
 
     }
-
+// method fot checking palindrome
     public static boolean isPalindrome (String str){
 
     for (int i=0;i<str.length()/2;i++){

@@ -12,6 +12,7 @@ public class Dates_Formatting {
         DateTimeFormatter dtf3=DateTimeFormatter.ofPattern("MMM/dd/yyyy");//Apr/23/2020
         DateTimeFormatter dtf4=DateTimeFormatter.ofPattern("dd MMMM yyyy");//23 April 2020
         DateTimeFormatter dtf5=DateTimeFormatter.ofPattern("EEE, MMMM yyyy");//Thu, April 2020
+        DateTimeFormatter dtf6=DateTimeFormatter.ofPattern("MMMM");
 
         LocalDate date1=LocalDate.now();
         System.out.println(date1.format(dtf));
@@ -20,6 +21,7 @@ public class Dates_Formatting {
         System.out.println(date1.format(dtf3));
         System.out.println(date1.format(dtf4));
         System.out.println(date1.format(dtf5));
+        System.out.println(date1.format(dtf6));
     }
 
 }
