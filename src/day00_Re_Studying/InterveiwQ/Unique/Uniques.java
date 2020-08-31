@@ -6,11 +6,11 @@ public class Uniques {
         String str="ABBBCDB";
         String result="";
 
-        System.out.println(result);
+        //System.out.println(result);
 
         String str2="Cybertek";
 
-        String result2=uniques(str2);
+        String result2=uniques(str);
         System.out.println(result2);//Cybrtk
 
     }

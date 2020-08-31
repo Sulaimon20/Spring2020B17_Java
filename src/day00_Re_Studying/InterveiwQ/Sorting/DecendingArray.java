@@ -14,8 +14,9 @@ public class DecendingArray {
            arrDesc[k]=arr[i];
            k++;
         }
-        System.out.println(Arrays.toString(arrDesc));
+        //System.out.println(Arrays.toString(arrDesc));
 
 
     }
+
 }

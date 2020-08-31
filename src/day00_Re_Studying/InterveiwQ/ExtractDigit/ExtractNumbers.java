@@ -12,5 +12,9 @@ public class ExtractNumbers {
         System.out.println("[^a-z]");
 
 
+        double d=12.4D;
+        String s=String.valueOf(d);
+        System.out.println("s = " + s);
+
     }
 }

@@ -13,13 +13,13 @@ public class String_VS_Buffer_VS_Builder {
         StringBuilder builder = new StringBuilder("Cybertek");
         builder.append(" School");
 
-        System.out.println(builder);
+        System.out.println(builder);//Cybertek School
 
         System.out.println("================================================");
         StringBuffer buffer = new StringBuffer("Cybertek");
         buffer.append(" School");
 
-        System.out.println(buffer);
+        System.out.println(buffer);//Cybertek School
 
         System.out.println("============================================");
 

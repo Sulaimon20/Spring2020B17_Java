@@ -6,6 +6,7 @@ abstract class A{
 }
 
 public class Abstract_VS_NonAbstract2 extends A{
+    
 //here we have two methods: abstract and instance
     @Override
     public void method1() {}//mandatory to override the method
@@ -13,6 +14,10 @@ public class Abstract_VS_NonAbstract2 extends A{
 }
 abstract class B extends A { //optional to override the abstract method of A
 //here we have two methods: abstract and instance
+
+    public B() {
+        super();
+    }
 }
 class C extends B{
 

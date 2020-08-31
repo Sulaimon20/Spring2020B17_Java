@@ -1,27 +1,35 @@
 package day00_Re_Studying.InterveiwQ.Anagram;
 
+import OfficeHours._06_03_Array.Array;
+
 import java.util.Arrays;
 
 public class AnagramString {
         public static void main(String[] args) {
-        String word1="Listen";
-        String word2="Silent";
 
-        word1=word1.toLowerCase();
-        word2=word2.toLowerCase();
-
-        char [] w1=word1.toCharArray();
-        char[] w2=word2.toCharArray();
-        Arrays.sort(w1);
-        Arrays.sort(w2);
-
-        if (Arrays.equals(w1,w2)){
-            System.out.println("Anagram");
-        }else {
-            System.out.println("not anagram");
+        test("silent", "listen");
         }
 
+        public static void test(String a, String b){
+
+                a.toLowerCase();
+                b.toLowerCase();
+
+                char[] ch=a.toCharArray();
+                char[] ch2=b.toCharArray();
+
+                Arrays.sort(ch);
+                Arrays.sort(ch2);
+
+                if (Arrays.equals(ch,ch2)){
+                        System.out.println(" anagram ");
+                }else {
+                        System.out.println("not anagram");
+                }
+
         }
+
+
     }
 
 /*

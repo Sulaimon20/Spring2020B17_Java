@@ -3,8 +3,8 @@ package day54_Maps_GarbageCollector;
 public class GarbageCollector {
 
     public static void main(String[] args) {
-        GarbageCollector obj =  new GarbageCollector(); // will not be collected by garbage collector
-        new GarbageCollector(); // will be collected by garbage collector
+       // GarbageCollector obj =  new GarbageCollector(); // will not be collected by garbage collector
+        //new GarbageCollector(); // will be collected by garbage collector
 
 
         System.out.println("Done");
@@ -28,7 +28,7 @@ public class GarbageCollector {
         System.out.println(n);
 
 
-        GarbageCollector obj3 = new GarbageCollector();
+       // GarbageCollector obj3 = new GarbageCollector();
         //   obj3.finalize();
 
 

@@ -1,7 +1,6 @@
-package day00_Re_Studying.Lambda;
+package day00_Re_Studying.InterveiwQ.Lambda;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class ExtractCharNumSpec {
     public static void main(String[] args) {

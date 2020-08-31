@@ -1,4 +1,4 @@
-package day00_Re_Studying.InterveiwQ;
+package day00_Re_Studying.InterveiwQ.VovelConsonant;
 
 import java.util.Scanner;
 
