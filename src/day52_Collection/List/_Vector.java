@@ -7,6 +7,10 @@ public class _Vector {
 
 Vector<Integer> vector =new Vector<>();//the difference ==> synchronized
      vector.add(12);
+     vector.add(13);
+     vector.add(14);
+     vector.add(15);
+        System.out.println("vector = " + vector);
 
 
     }

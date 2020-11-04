@@ -14,7 +14,7 @@ public class MethodsToReverseWord {
 
     }
 
-    static public void ReverseString(String str) {
+     public static void ReverseString(String str) {
 
         for (int i = str.length() - 1; i >= 0; i--) {
             System.out.print(str.charAt(i)); //rathuM + //loohcS ketrebyC

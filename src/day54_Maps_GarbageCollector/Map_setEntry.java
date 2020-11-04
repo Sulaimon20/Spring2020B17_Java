@@ -6,13 +6,13 @@ public class Map_setEntry {
         LinkedHashMap<String, String>  countries = new LinkedHashMap<>();
         countries.put("Tajikistan", "Dushanbe");
         countries.put("Kyrgyzstan", "Bishkek");
-        countries.put("East Turkistan", "Urumqi");
+        countries.put("East Turkistan", "Urumchi");
         countries.put("USA","Washington DC");
         countries.put("Pakistan","Islamabad");
 
         String input = "usa";
         for(Map.Entry<String, String>   each : countries.entrySet()  ) {
-            System.out.println( "Capital city of" + each.getKey() + " is : " + each.getValue() );
+            System.out.println( "Capital city of " + each.getKey() + " is : " + each.getValue() );
             // System.out.println( "Capital city of" + each.getKey() + " is : " + each.getValue() );
             String countryName = each.getKey();
             String cityName = each.getValue();

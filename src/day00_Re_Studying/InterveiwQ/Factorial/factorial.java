@@ -15,7 +15,6 @@ positive integers less than or equal to n.  Calculate factorial and output resul
         while(n > 1){
             result =result*n;
             n--; }
-
         System.out.println(result);
     }
 }

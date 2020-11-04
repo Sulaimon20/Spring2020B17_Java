@@ -1,4 +1,4 @@
-package day00_Re_Studying.Strings;
+package day00_Re_Studying.InterveiwQ.Strings;
 
 public class StringConcatination {
     public static void main(String[] args) {

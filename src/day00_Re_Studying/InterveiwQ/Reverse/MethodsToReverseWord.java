@@ -5,16 +5,12 @@ public class MethodsToReverseWord {
 
         String name1 = "Muhtar";
         ReverseString(name1);
-
-        String name2 = "Cybertek School";
-        ReverseString(name2);
-
     }
 
     static public void ReverseString(String str) {
 
         for (int i = str.length() - 1; i >= 0; i--) {
-            System.out.print(str.charAt(i)); //rathuM + //loohcS ketrebyC
+            System.out.print(str.charAt(i));
         }
         System.out.println();
     }

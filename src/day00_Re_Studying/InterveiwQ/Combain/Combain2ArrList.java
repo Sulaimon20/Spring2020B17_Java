@@ -1,6 +1,7 @@
 package day00_Re_Studying.InterveiwQ.Combain;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Combain2ArrList {
     public static void main(String[] args) {
@@ -17,5 +18,8 @@ public class Combain2ArrList {
             list.add(eachElement);
         }
         System.out.println(list);//[A, B, C, D, E, F, G]
+    ArrayList<String>list1=new ArrayList<>(Arrays.asList(arr1+""+arr2));
+        System.out.println("list1 = " + list1);
+
     }
 }

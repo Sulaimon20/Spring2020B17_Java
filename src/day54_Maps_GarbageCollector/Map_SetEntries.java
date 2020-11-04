@@ -1,11 +1,15 @@
 package day54_Maps_GarbageCollector;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
+import java.util.*;
 
 public class Map_SetEntries {
 
     public static void main(String[] args) {
+       //I gonna use LinkedHashMap
+        //then for loop
+        //inside the loop i will use if condition:
+        //getValue
+
+
         LinkedHashMap<String, String>  fb = new LinkedHashMap<>();
         fb.put("Tester01", "password1");
         fb.put("Tester02", "password1");
@@ -37,6 +41,23 @@ public class Map_SetEntries {
         System.out.println("=======================================");
 
 
+
+        Map<Integer, String> map=new TreeMap<>();
+        map.put(1,"one");
+        map.put(2,"two");
+        map.put(2,"two");
+        map.put(2,"two");
+        map.put(2,"two");
+        map.put(3,"three");
+        map.put(3,"three");
+        map.put(3,"three");
+        map.put(4,"four");
+        map.put(4,"four");
+        map.put(4,"four");
+        map.put(4,"four");
+
+
+        System.out.println(map);
+    }
     }
 
-}

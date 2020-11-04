@@ -1,12 +1,9 @@
-package day00_Re_Studying.InterveiwQ.Anagram;
+package day00_Re_Studying.Exam;
 
 import java.util.Arrays;
 
 public class Anagram {
-    //a==>0
-    //z==>25
-    //abc
-    //bc
+
     public static void main(String[] args) {
         String one="listen";
         String two="silent";
@@ -15,7 +12,6 @@ public class Anagram {
 public static boolean isAnagram(String one, String two){
 
     if (one.length()!=two.length()) return false;
-
     int [] count=new int [26];
 
     for (int i=0; i<one.length();i++){

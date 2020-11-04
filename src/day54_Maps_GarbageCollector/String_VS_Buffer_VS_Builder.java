@@ -24,13 +24,16 @@ public class String_VS_Buffer_VS_Builder {
         System.out.println("============================================");
 
         String word = "ABCD";
+        String word2 = "Java java is language";
 
 
-        StringBuilder sb = new StringBuilder(word);
-        sb.reverse();
+        StringBuilder sb = new StringBuilder(word).reverse();
+       // sb.reverse();
 
         System.out.println(sb);
-
+        StringBuilder sb1 = new StringBuilder(word2).replace(4,9, "");
+        System.out.println("before " + word2);
+        System.out.println("after " + sb1);
         word = sb.toString();
 
         System.out.println(word);

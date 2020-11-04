@@ -33,7 +33,6 @@ public class Lists {
     names.add("Bony");
     names.add("Alex");
     names.add("Rad");
-
     names.add("Omar");
     names.add("Chmo");
 

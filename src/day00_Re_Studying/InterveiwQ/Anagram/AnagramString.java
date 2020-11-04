@@ -6,30 +6,19 @@ import java.util.Arrays;
 
 public class AnagramString {
         public static void main(String[] args) {
-
         test("silent", "listen");
         }
-
         public static void test(String a, String b){
-
-                a.toLowerCase();
-                b.toLowerCase();
-
-                char[] ch=a.toCharArray();
-                char[] ch2=b.toCharArray();
-
+                char[] ch=a.toLowerCase().toCharArray();
+                char[] ch2=b.toLowerCase().toCharArray();
                 Arrays.sort(ch);
                 Arrays.sort(ch2);
-
                 if (Arrays.equals(ch,ch2)){
                         System.out.println(" anagram ");
                 }else {
                         System.out.println("not anagram");
                 }
-
         }
-
-
     }
 
 /*

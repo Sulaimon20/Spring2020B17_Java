@@ -5,6 +5,7 @@ public class containsStringClass {
         String str="This life is incredible";
         System.out.println(str.contains("dte"));
         System.out.println(str.contains("li"));
+        System.out.println(str.contains("in"));
 
     }
 

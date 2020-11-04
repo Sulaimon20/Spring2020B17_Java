@@ -20,7 +20,7 @@ public class Duplicates {
             }
 //      we gonna put the
 
-            if (count > 1&& !duplicates.contains(str.get(i))) {
+            if (count > 1 && ! duplicates.contains(str.get(i))) {
                 duplicates.add(str.get(i));
 
             }

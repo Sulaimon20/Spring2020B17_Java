@@ -1,6 +1,6 @@
 package day54_Maps_GarbageCollector;
 
-public class GarbageCollector {
+public class GarbageCollector1 {
 
     public static void main(String[] args) {
        // GarbageCollector obj =  new GarbageCollector(); // will not be collected by garbage collector

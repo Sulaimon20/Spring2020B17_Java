@@ -5,7 +5,7 @@ public class LeapYear {
     public static void main(String[] args) {
     short year=2025;
     boolean leapYear = year%4==0;
-        System.out.println(year +"is leap year: " + leapYear);
+        System.out.println(year +" is leap year: " + leapYear);
     }
 
 }

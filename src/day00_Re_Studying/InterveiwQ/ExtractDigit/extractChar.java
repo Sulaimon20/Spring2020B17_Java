@@ -9,7 +9,7 @@ public class extractChar {
 
         ArrayList<Character> letter=new ArrayList<>();
         ArrayList<Character> digits=new ArrayList<>();
-        ArrayList<Character> sprecialChar=new ArrayList<>();
+        ArrayList<Character> specialChar=new ArrayList<>();
 
         for (char each: arr) {
             if (Character.isAlphabetic(each)) {
@@ -18,13 +18,13 @@ public class extractChar {
                 digits.add(each);
             }
             else  {//(!Character.isDigit(each)&&!Character.isDigit(each))
-                sprecialChar.add(each);
+                specialChar.add(each);
             }
 
         }
         System.out.println(letter);//[A, B, C, D, E, F, G]
         System.out.println(digits);//[1, 2, 3, 4, 5, 6]
-        System.out.println(sprecialChar);//[$, %, #, @, &, !]
+        System.out.println(specialChar);//[$, %, #, @, &, !]
 
 
     }

@@ -10,7 +10,7 @@ public class MyTriangle {
         System.out.println();
         System.out.println("    *");
         System.out.println("   * *");
-        System.out.println("  * * * *");
+        System.out.println("  * * * ");
         System.out.println(" * * * *");
         System.out.println("* * * * *");
 

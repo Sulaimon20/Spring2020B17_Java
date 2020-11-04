@@ -28,6 +28,7 @@ public class SuperKeyword extends SuperClass {
         System.out.println("===================");
         SuperClass obj2=new SuperClass(2.1);//100
         SuperKeyword obj3=new SuperKeyword(2);// 100 100
+        SuperClass obj4=new SuperKeyword(2);
 
 
 

@@ -2,11 +2,9 @@ package day00_Re_Studying.InterveiwQ.Palindrome;
 
 import java.util.Scanner;
 
-public class PalindromeTest {
+public class PalindromeWithCharAt {
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter your word:");
-        String word=input.nextLine();   //JAVA
+        String word="anna";
                                         //0123
         String reverseWord="";//avaJ
         for (int i=word.length()-1; i>=0; i--) {

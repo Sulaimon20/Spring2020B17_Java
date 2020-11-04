@@ -1,4 +1,4 @@
-package day00_Re_Studying.Strings;
+package day00_Re_Studying.InterveiwQ.Strings;
 
 public class replaceFirstString {
     public static void main(String [] args){

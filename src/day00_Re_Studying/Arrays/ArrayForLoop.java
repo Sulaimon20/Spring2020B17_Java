@@ -15,6 +15,7 @@ public class ArrayForLoop {
             length++;
         }
 
+
         System.out.println("The Array has a capacity of " + array.length);
         System.out.println("The Array has a length of " + length);
     }

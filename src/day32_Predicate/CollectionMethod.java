@@ -22,6 +22,7 @@ public class CollectionMethod {
         Integer maxNum=Collections.max(numbers);
         numbers.removeAll(Arrays.asList(maxNum));
         System.out.println(numbers);
+
         int secondMax=Collections.max(numbers);
         System.out.println(secondMax);
         System.out.println("==============================================");
@@ -29,6 +30,7 @@ public class CollectionMethod {
 
         Integer minNum=Collections.min(numbers2);//1
         numbers2.removeAll(Arrays.asList(minNum));//remove all the min numbers 1,1
+
         System.out.println(numbers2);
         Integer secondMin= Collections.min(numbers2);
         System.out.println(secondMin);//2

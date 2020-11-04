@@ -1,5 +1,7 @@
 package day00_Re_Studying.InterveiwQ.Combain;
 
+import java.util.Arrays;
+
 public class combainStrings {
     public static void main(String[] args) {
         String str="ACEG";
@@ -13,9 +15,6 @@ public class combainStrings {
         }
         combainWord= combainWord + str   .substring(i) + str2.substring(i);
         System.out.println(combainWord);;
-
-
-
 
     }
 }

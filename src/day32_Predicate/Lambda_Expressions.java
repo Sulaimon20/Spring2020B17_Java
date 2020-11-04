@@ -2,24 +2,24 @@ package day32_Predicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.Predicate;
 
 public class Lambda_Expressions {
 	
 	public static void main(String[] args) {
 
-        Predicate<Integer> oddNumber= x -> x%2 != 0;
-
         ArrayList<Integer>list = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+        Predicate<Integer> oddNumber= x -> x%2 != 0;
         list.removeIf(oddNumber);
-        System.out.println(list);
+        System.out.println(list);//[2, 4, 6, 8]
 
         System.out.println("================================");
 
         ArrayList<Integer>list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
         Predicate<Integer> lessThan5= x -> x>5;
         list2.removeIf(lessThan5);
-        System.out.println(list2);
+        System.out.println(list2);//[1, 2, 3, 4, 5]
         
 	System.out.println("=====================================");
 
@@ -27,7 +27,7 @@ public class Lambda_Expressions {
 
         Predicate<String> startsWithM= s -> s.toLowerCase().startsWith("m");
         list3.removeIf(startsWithM);
-        System.out.println(list3);
+        System.out.println(list3);//[Abie, Bie, Olu, Wow, Tom]
 
         System.out.println("=====================================");
 
@@ -68,6 +68,8 @@ public class Lambda_Expressions {
         chars2.removeIf(removeSpecial);
 
         System.out.println(chars2);
+
+
 
 
 

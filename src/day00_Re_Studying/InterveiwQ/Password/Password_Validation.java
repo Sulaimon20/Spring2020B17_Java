@@ -10,29 +10,31 @@ requirements:
 4. Password should at least contain one special characters
 5. Password should at least contain a digit
 if all requirements above are met, the method returns true, otherwise returns  false
-     */
+     */ //   <---- requirement
     public static void main(String[] args) {
 
-        boolean b = PassWordvalidation("Afsd12fs");
+        boolean b = PassWordValidation("Afsd12fs");
         System.out.println("b = " + b);
     }
 
-    public static boolean PassWordvalidation(String password) {
+    public static boolean PassWordValidation(String password) {
 
         String lowercase = "(.*[a-z].*)";
         String uppercase = "(.*[A-Z].*)";
         String numbers = "(.*[0-9].*)";
         String specialChars = "(.*[ -/, :-@].*)";
-        boolean HasLower = password.matches(lowercase),
-                HasUpper = password.matches(uppercase),
-                HasDigits = password.matches(numbers),
-                HasSpecial = password.matches(specialChars),
-                Valid = false;
+        boolean HasLower = password.matches(lowercase);
+        boolean HasUpper = password.matches(uppercase);
+        boolean HasDigits = password.matches(numbers);
+        boolean HasSpecial = password.matches(specialChars);
+        boolean valid = false;
 
         if (password.length() >= 6 && !password.contains(" "))
             if (HasLower && HasUpper && HasDigits && HasSpecial)
-                Valid = true;
-        return Valid;
+                valid = true;
+        return valid;
+
+
 
     }
 

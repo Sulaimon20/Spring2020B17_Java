@@ -3,7 +3,7 @@ package day00_Re_Studying.InterveiwQ.DuplicateNonDuplicate;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Duplicates {
+public class DuplicatesArray {
     public static void main(String[] args) {
 
         ArrayList<String> str=new ArrayList<>(Arrays.asList("A", "B","A", "C", "D"));

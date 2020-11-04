@@ -12,7 +12,8 @@ public class ArrayListRemoveIf {
 
         //this is lambda expression
        numbers.removeIf( number -> number % 2 == 0 );//remove even numbers
-       numbers.removeIf(x  -> x>5);// remove numbers more than 5
+        System.out.println("numbers = " + numbers);
+       numbers.removeIf(x  -> x>=5);// remove numbers more than 5
 
         System.out.println(numbers);
 

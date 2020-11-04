@@ -2,7 +2,7 @@ package day10_Switch_Scanner;
 
 public class SwitchDays {
     public static void main(String[] args) {
-        int day =11;
+        int day =1;
         String result="";
         switch (day){
             case 1:

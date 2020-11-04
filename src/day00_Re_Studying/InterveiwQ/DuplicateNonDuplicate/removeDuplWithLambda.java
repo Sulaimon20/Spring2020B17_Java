@@ -8,11 +8,12 @@ import java.util.function.Predicate;
 public class removeDuplWithLambda {
     public static void main(String[] args) {
 
-        ArrayList<Integer> list= new ArrayList<>();
-        list.addAll(Arrays.asList(1,2,4,2,4,8));
-        Predicate<Integer> nonDup= p -> Collections.frequency(list,p)!=1;//
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 4, 2, 4, 8));
+        Predicate<Integer> nonDup = p -> Collections.frequency(list, p) != 1;
         list.removeIf(nonDup);
+        list.toString();
         System.out.println(list);//[1, 8]
+
 
 
     }

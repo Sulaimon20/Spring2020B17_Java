@@ -15,7 +15,7 @@ public class ArrayListFindSecondMinMax {
         list.add(1.7);
         list.add(1.29);
         list.add(-1.21);
-        System.out.println(Arrays.asList(list));
+        System.out.println(Arrays.asList(list));//[[1.2, 1.4, 1.6, 1.7, 1.29, -1.21]]
         System.out.println(Collections.min(list));
 
         ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1,1,2,3,4,4));

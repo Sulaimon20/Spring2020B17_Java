@@ -26,31 +26,27 @@ public class Iterating_Collection {
             if (list.get(i)<4){
                 list.remove(i);
             }
-
         }
-        System.out.println(list);
+        System.out.println(list);//[1, 2, 3, 4, 4, 5, 5]
 
         ArrayList<Integer> list2=new ArrayList<>(Arrays.asList(1,1,2,2,3,3,4,4,4,5,6,7,7));
         list2.removeIf(p -> p<4);
-        System.out.println(list2);
+        System.out.println(list2);                              //[4, 4, 4, 5, 6, 7, 7]
 
         ArrayList<Integer> list3=new ArrayList<>(Arrays.asList(1,1,2,3,4,4,4,5,6));
         Iterator<Integer> it = list3.iterator();
+        it.hasNext();//boolean expression
+        System.out.println(it.hasNext());//true if list3 has elements
 
-        //it.hasNext();//boolean expression
-
-        //System.out.println(it.hasNext());//true if list3 has elements
-        //System.out.println(it.next());
-
+        System.out.println(it.next());
         while (it.hasNext()){
             if(it.next()<4){
             it.remove();
             }
         }
-        System.out.println(list3);
+        System.out.println(list3);//[4, 4, 4, 5, 6]
 
         ArrayList<Integer> list4=new ArrayList<>(Arrays.asList(11,11,22,33,44,44,44,55,66));
-
         //      i=0;
         for (Iterator<Integer> each=list4.iterator(); each.hasNext(); ){
             int num=each.next();
@@ -58,7 +54,7 @@ public class Iterating_Collection {
                 each.remove();
             }
         }
-        System.out.println(list4);
+        System.out.println(list4);//[44, 44, 44, 55, 66]
 
 
 

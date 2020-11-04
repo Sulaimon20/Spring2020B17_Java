@@ -17,7 +17,7 @@ public class contains {
 
             String password = "mmasd1235";
             if (password.contains(" ")) {
-                System.out.println("Pasword cannot have a space in it");
+                System.out.println("Password cannot have a space in it");
             } else {
                 System.out.println("valid password");
             }
