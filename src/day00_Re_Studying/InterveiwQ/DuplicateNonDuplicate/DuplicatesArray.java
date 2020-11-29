@@ -6,7 +6,14 @@ import java.util.Arrays;
 public class DuplicatesArray {
     public static void main(String[] args) {
 
-        ArrayList<String> str=new ArrayList<>(Arrays.asList("A", "B","A", "C", "D"));
+        ArrayList<String> str=new ArrayList<>(Arrays.asList("owl", "eagle", "goldfish","eagle",
+                "goldfish", "goldfish", "eagle"));
+
+        String str2="green apple";
+        char[] ch=str2.toCharArray();
+
+
+
        //3 stage to create regular loop
         ArrayList<String> duplicates = new ArrayList<>();
         int dupCount=0;
@@ -18,14 +25,10 @@ public class DuplicatesArray {
                     count++;
                 }
             }
-//      we gonna put the
             if (count > 1&& !duplicates.contains(str.get(i))) {
                 duplicates.add(str.get(i));
-
             }
         }
-
-        System.out.println(duplicates);
-
+        System.out.println(duplicates.remove(0));
     }
 }

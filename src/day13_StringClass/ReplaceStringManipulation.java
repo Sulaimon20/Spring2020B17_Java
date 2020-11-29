@@ -3,7 +3,12 @@ package day13_StringClass;
 public class ReplaceStringManipulation {
     public static void main(String[] args) {
         String s2="I like C# programaring";
-        s2=s2.replace("C#", "Java");
+        String bruno="Bruno Mars";
+        String brunoShort=bruno.substring(0, 1);
+
+
+
+                s2=s2.replace("C#", "Java");
         System.out.println(s2);//                       I like Java programaring
         String name = "COVID 18";
         name=name.replace("18", "19");

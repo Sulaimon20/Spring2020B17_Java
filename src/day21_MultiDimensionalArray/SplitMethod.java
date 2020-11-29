@@ -30,12 +30,8 @@ public class SplitMethod {
             result += eachWord + " ";
         }
         System.out.print(result);
-
         String str2 = "ABCD";
-
         String arr2[] = str2.split(""); // ["A", "B", "C", "D"]
-
-
         System.out.println("\n" + Arrays.toString(arr2)); //[A, B, C, D] <== these are Strings, not char
 
     }}

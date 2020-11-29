@@ -1,12 +1,12 @@
-package day00_Re_Studying.InterveiwQ;
+package day00_Re_Studying.InterveiwQ.PrimeNumber;
 
 public class PrimeNumber {
 
     public static void main(String[] args) {
-
         System.out.println(primeNumber(24));
 
     }
+
     public static int primeNumber(long num) {
         int result = 2;
         if(num <= 1) {

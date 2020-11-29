@@ -18,6 +18,12 @@ public class arrayMaxAndMinNumber {
         System.out.println("Maximum number = "
                 + max + " Minimum number = " + min);
 
+
+
+
+
+
+
     }
 }
 

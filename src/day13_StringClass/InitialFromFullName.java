@@ -20,4 +20,23 @@ public class InitialFromFullName {
 
 
     }
+
+    public static String convertName(String name){
+
+        String [] Split = name.split(" ");
+
+        String firstName=name.substring(0,name.indexOf(" ") );//Sulaimon
+        String lastName=name.substring(name.indexOf(" ")+1  );//Shokhzoda
+
+        String firstName1=(firstName.substring(0,1));
+        String lastName1=(lastName.substring(0,1));
+
+        System.out.println(firstName1.toUpperCase());
+        System.out.println(lastName1.toUpperCase());
+
+        return firstName1.toUpperCase() + "." +lastName1.toUpperCase();
+
+
+    }
+
 }

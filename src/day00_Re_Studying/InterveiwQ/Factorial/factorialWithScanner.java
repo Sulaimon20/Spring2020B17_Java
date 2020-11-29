@@ -2,7 +2,7 @@ package day00_Re_Studying.InterveiwQ.Factorial;
 
 import java.util.Scanner;
 
-public class factorial {
+public class factorialWithScanner {
     public static void main(String[] args) {
       //  Scanner scan = new Scanner(System.in);
         //int n = scan.nextInt();

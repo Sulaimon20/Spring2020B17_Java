@@ -9,4 +9,8 @@ public class String {
 
 
     }
+
+    public void length() {
+
+    }
 }
